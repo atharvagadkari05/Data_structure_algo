@@ -23,24 +23,24 @@ void merge(int arr[], int l,int r, int mid)
     {
         if (a[i] <= b[j])
         {
-            arr[k] = arr[i];
+            arr[k] = a[i];
             k++;
             i++;
         }
-        if(a[i] > a[j])
+        if(a[i] > b[j])
 
         {
-            arr[k] = arr[j];
+            arr[k] = b[j];
             k++;
             j++;
         }
     }
-    if(i<n1){
+    while(i<n1){
         arr[k]=a[i];
         k++;
         i++;
     }
-    if(j<n2){
+    while(j<n2){
         arr[k]=b[j];
         k++;
         j++;
