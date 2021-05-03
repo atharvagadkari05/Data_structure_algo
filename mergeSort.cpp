@@ -80,69 +80,7 @@ int main()
 }
 
 
-
-// #include <iostream>
-// using namespace std;
  
-//  void merge (int arr[],int l, int mid,int r){
-//      int n1=mid-l;
-//      int n2 = r-mid+1;
-//      int a[n1];
-//      int b[n2];
-   
-    
-//      for(int i =0;i<n1;i++){
-//          a[i]=arr[i+l];
-         
-//      }
-//       for(int i =0;i<n1;i++){
-//          b[i]=arr[mid+i+1];
-         
-//  }
-//  int i=l;
-//  int j= mid+1;
-//  int k=0;
-
-
-//  while(i<mid && j<r){
-//      if(a[i]<b[j]){
-//          arr[k] = a[i];
-//          i++;k++;
-//       }else{
-//           arr[k]=b[j];
-//       }
-
-//  }
-//  while(i<mid){
-//      arr[k]=a[i];
-
-//  }
-//   while(j<r){
-//      arr[k]=b[j];
-     
-//  }
- 
- 
-//  void mergesort (int arr[],int l, int r)
-//   {
-//      if(l<r)
-//      {
-//       int mid = (l+r)/2;
-//       mergesort(arr[],l,mid);
-//       mergesort(arr[],mid+1,r);
-//       merge(arr[] ,l,r,mid);
-//      }
-//   }
- 
- 
-//  int main(){
-// int arr[] = {5,4,3,2,1};
-// mergesort(arr[],0,4);
-// for(int i= 0;i<r;i++){
-//     cout<<arr[i]<<" " ;
-// }
-//  }
-
 
 
 
