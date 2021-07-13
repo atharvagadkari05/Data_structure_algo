@@ -19,15 +19,16 @@ for (int j =1;j<r;j++){
     }
 }
 swap(arr,i+1,r);
-return i+1;                                       
+return i+1;                               
 
+}
 
 void quicksort(int arr[],int l, int r){         // ERROR
-}
+
 if(l<r){
     int pi = partition(arr,l,r);
-    quicksort(arr,l,pi-1);
-    quicksort(arr,pi+1,r);
+    quicksort(arr,l,pi-1);                       // Recursion
+    quicksort(arr,pi+1,r);                          // Recursion
 }
 }
 

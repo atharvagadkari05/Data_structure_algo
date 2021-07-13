@@ -12,7 +12,7 @@ void waveSort(int arr[],int n){
         if(arr[i]>arr[i-1]){
             swap(arr,i,i-1);
         }
-        else if(arr[i]>arr[i+1]&&i<=n-2){
+         if(arr[i]>arr[i+1]&&i<=n-2){
             swap(arr,i,i+1);
         }
     }
